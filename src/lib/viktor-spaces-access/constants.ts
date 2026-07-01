@@ -1,0 +1,15 @@
+export const AUTHORIZATION_ENDPOINT = "/api/viktor-auth/authorize";
+export const TOKEN_ENDPOINT = "/api/viktor-auth/token";
+export const REFRESH_ENDPOINT = "/api/viktor-auth/refresh";
+export const REVOCATION_ENDPOINT = "/api/viktor-auth/revoke";
+export const SESSION_ENDPOINT = "/api/viktor-auth/session";
+export const USERINFO_ENDPOINT = "/api/viktor-auth/userinfo";
+export const SPACE_CALLBACK_PATH = "/__viktor_auth/callback";
+export const SPACE_ME_PATH = "/__viktor_auth/me";
+export const SPACE_LOGOUT_PATH = "/__viktor_auth/logout";
+export const SPACE_SESSION_COOKIE_NAME = "__Host-viktor_space_session";
+export const SPACE_SESSION_DEV_COOKIE_NAME = "viktor_space_session_dev";
+export const PKCE_METHOD = "S256";
+export const DEFAULT_SCOPE = "openid profile space.read space.session";
+export const SESSION_MAX_AGE_SECONDS = 1_209_600;
+export const PKCE_COOKIE_NAME = "viktor_auth_pkce";

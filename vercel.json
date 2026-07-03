@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/api/:path*",
+      "destination": "https://limitless-goose-210.convex.site/api/:path*"
+    },
+    {
       "source": "/((?!assets/|__viktor_meta\\.json).*)",
       "destination": "/index.html"
     }
